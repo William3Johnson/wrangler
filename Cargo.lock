@@ -368,7 +368,7 @@ dependencies = [
  "slog-term",
  "sloggers",
  "url",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -3122,6 +3122,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "uuid"
+version = "1.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6d5d669b51467dcf7b2f1a796ce0f955f05f01cafda6c19d6e95f730df29238"
+dependencies = [
+ "getrandom 0.2.5",
+]
+
+[[package]]
 name = "vcpkg"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3413,7 +3422,7 @@ dependencies = [
  "toml_edit",
  "twox-hash",
  "url",
- "uuid",
+ "uuid 1.1.1",
  "which",
 ]
 
