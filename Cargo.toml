@@ -45,7 +45,7 @@ os-version = "0.2.0"
 path-slash = "0.1.4"
 percent-encoding = "2.1.0"
 predicates = "2.0.0"
-prettytable-rs = "0.8.0"
+prettytable-rs = "0.10.0"
 rand = "0.8.3"
 regex = "1.4.1"
 reqwest = { version = "0.11.3", features = ["blocking", "json", "multipart"] }
