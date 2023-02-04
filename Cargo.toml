@@ -61,7 +61,7 @@ sys-info = "0.9"
 tempfile = "3.1.0"
 term_size = "0.3"
 text_io = "0.1.8"
-tokio = { version = "1.5.0", default-features = false, features = ["io-std", "time", "macros", "process", "signal", "sync"] }
+tokio = { version = "1.18.5", default-features = false, features = ["io-std", "time", "macros", "process", "signal", "sync"] }
 tokio-native-tls = "0.3.0"
 tokio-retry = "0.3"
 tokio-rustls = "0.23.0"
